@@ -1,0 +1,31 @@
+.contenedor-boton button{
+
+    background: chocolate;
+ 
+}
+/*------------------slider de imagenes--------------*/
+.carousel-inner{
+    max-height: 50rem;
+}
+
+/*------------------media queries pantalla--------------*/
+@media (max-width:768px){
+    #intro{
+        width:90% !important;
+}
+     .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+     }
+
+}
+/*------------------media queries pantalla equeñas--------------*/
+@media (max-width:576px){
+    .icono-wrap{
+         flex-wrap: wrap;
+         justify-content: center !important;
+    }
+}
+/*------------------mapa--------------*/
+
+
